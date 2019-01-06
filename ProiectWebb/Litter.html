@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <Title>Magazin Domestic</Title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="header-wrapper" class="topp" >
+            <img class="background" src="Imagini/BackGround1.png" alt="" /> 
+        </div>
+        <div id='cssmenu'>
+            <ul>
+                <li><a href='Index.html'><span>Home</span></a></li>
+                <li><a href='Toys.html'><span>Toys</span></a></li>
+                <li class='has-sub'><a href='#'><span>Food</span></a>
+                    <ul>
+                        <li><a href='Cats.html'><span>Cats</span></a>
+                        </li>
+                        <li><a href='Dogs.html'><span>Dogs</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class='active'><a href='Litter.html'><span>Litter</span></a></li>
+                <li class='last'><a href='Contact.html'><span>Contact</span></a></li>
+            </ul>
+        </div>
+        <div class="IMGSR">
+            <div class="item">
+                <div class="cat-imagine">
+                    <img class="background" src="Imagini/34628_pla_sanicat_professional_clumping_10l_3.jpg" alt="Nisip Pisici" >
+                </div>
+                <div class="Scris">
+                    <p>Sanicat Pisici</p>
+                    <p>30$</p>
+                    <p id="litter1"></p>
+                    <button class = "button" onclick = "countm(this)">BUY</button>
+                </div>
+            </div>
+            <div class="item">
+                <div class="cat-imagine">
+                    <img class="background" src="Imagini/intersand_ecolife_4.54_kg.jpg" alt="Nisip Pisici">
+                </div>
+                <div class="Scris">
+                    <p>Ecolife Pisici</p>
+                    <p>35$</p>
+                    <p id="litter2"></p>
+                    <button class = "button" onclick = "countm(this)">BUY</button>
+                </div>
+            </div>
+             <div class="item">
+                <div class="cat-imagine">
+                    <img class="background" src="Imagini/20582938.jpg" alt="Nisip Pisici">
+                </div>
+                <div class="Scris">
+                    <p>Crystal cat Pisici</p>
+                    <p>35$</p>
+                    <p id="litter3"></p>
+                    <button class = "button" onclick = "countm(this)">BUY</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>

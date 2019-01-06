@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <Title>Magazin Domestic</Title>
+        <link rel="stylesheet" type="text/css" href="Style.css">
+        <meta charset='utf-8'>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div id="header-wrapper" class="topp" >
+            <img class="background" src="Imagini/BackGround1.png"  alt="" /> 
+        </div>
+        <div id='cssmenu'>
+            <ul>
+                <li><a href='Index.html'><span>Home</span></a></li>
+                <li><a href='Toys.html'><span>Toys</span></a></li>
+                <li class='active has-sub'><a href='#'><span>Food</span></a>
+                    <ul>
+                        <li><a href='Cats.html'><span>Cats</span></a>
+                        </li>
+                        <li><a href='Dogs.html'><span>Dogs</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href='Litter.html'><span>Litter</span></a></li>
+                <li class='last'><a href='Contact.html'><span>Contact</span></a></li>
+            </ul>
+        </div>
+        <div class="IMGSR">
+            <div class="item">
+                <div class="cat-imagine">
+                    <img class="background" src="Imagini/cat.jpg" alt="Nisip Pisici" >
+                </div>
+                <div class="Scris">
+                    <p>Jucarie Pisici</p>
+                    <p>30$</p>   
+                    <p id="toy1"></p>
+                    <button class = "button" onclick = "countm(this)">BUY</button>
+                </div>
+            </div>
+            </div>
+        <div class="IMGSR">
+            <div class="item">
+                <div class="cat-imagine">
+                    <img class="background" src="Imagini/Dog.jpg" alt="Nisip Pisici">
+                </div>
+                <div class="Scris">
+                    <p>Jucarie Caini</p>
+                    <p>35$</p>    
+                    <p id="toy2"></p>
+                    <button class = "button" onclick = "countm(this)">BUY</button>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
