@@ -1,3 +1,4 @@
+
 "use strict";
 var text;
 function readTextFile(file) {
@@ -56,14 +57,19 @@ document.addEventListener("DOMContentLoaded", function(event) {
             document.getElementById("litter3").innerHTML= count13;
             break;
         default:
-    }
-});
-function countm(button){
-    var id = button.parentNode.children[2].id;
-    var element = document.getElementById(id);
-    if(element.innerHTML == 0)
-        alert("Pare rau");
-    else
-        element.innerHTML = element.innerHTML -1;
 
+    };
+    //not used
+    //broken af
+    function countm2(button){
+        var id = button.parentNode.children[2].id;
+        var element = document.getElementById(id);
+        if(element.innerHTML == 0)
+            alert("Pare rau");
+        else
+            element.innerHTML = element.innerHTML -1;
+
+    }
 }
+                          
+   
